@@ -1,0 +1,10 @@
+{ 
+    "Test": {
+        "prefix": "test",
+        "description" : "Declare dafault body",
+        "body": [
+            "declare",
+            "end;"
+        ]
+    }
+}

@@ -14,11 +14,18 @@
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [{
+		"commands": [
+			{
             "command": "code-sol.helloWorld",
             "title": "Hello World"
-
-		}]
+			}
+		],
+		"snippets": [
+			{
+				"language": "markdown",
+				"path": "./snippets/md_snippets.json"
+			}
+		]
 	},
 	"scripts": {
 		"lint": "eslint .",
